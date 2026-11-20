@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "name": "NewInputTest",
+    "maps": [
+        {
+            "name": "Test",
+            "id": "97e4ed89-08eb-45c0-9ace-e81aa3a6f9b1",
+            "actions": [
+                {
+                    "name": "Restart",
+                    "type": "Button",
+                    "id": "a66c2843-ae74-4b97-b7ac-405809106b32",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "66c510eb-b419-440a-9d8a-1089173f5cbc",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Restart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
