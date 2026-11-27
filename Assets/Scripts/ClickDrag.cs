@@ -40,7 +40,7 @@ public class ClickDrag : MonoBehaviour
     void Update()
     {
         // Get Mouse Position
-        Vector2 mousePos = Mouse.current.position.ReadValue();
+        // Vector2 mousePos = Mouse.current.position.ReadValue();
 
         // Click to Drag
         if (Mouse.current.leftButton.wasPressedThisFrame && !isMousePressed && textbox != null)
@@ -52,7 +52,7 @@ public class ClickDrag : MonoBehaviour
         // When the Mouse is Held Down, and There's a Textbox
         if (isMousePressed && textbox != null)
         {
-            textbox.OnMouseDown(mousePos);
+            textbox.OnMouseDown(transform.position);
         }
         
         // Check if Mouse Clicks on this Object

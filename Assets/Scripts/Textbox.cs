@@ -84,8 +84,9 @@ public class Textbox : MonoBehaviour
         // If it's overlapping over its home, then snap
         if (isDragging && isOverlapping && textboxHome != null)
         {
-            transform.SetParent(textboxHome.transform, false); // false to snap
-            transform.localPosition = Vector3.zero;
+            // transform.SetParent(textboxHome.transform, false); // false to snap
+            // transform.localPosition = Vector3.zero;
+            transform.position = textboxHome.transform.position;
         }
         isDragging = false;
     }
