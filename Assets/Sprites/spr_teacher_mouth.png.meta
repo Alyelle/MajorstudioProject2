@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,10 +123,10 @@ TextureImporter:
         serializedVersion: 2
         x: 73
         y: 207
-        width: 371
+        width: 11
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -148,7 +148,7 @@ TextureImporter:
         width: 11
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -161,11 +161,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: spr_teacher_mouth_2
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 207
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd351721542dd945a1f7b28db7e79ec
+      internalID: -1991823378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 50079b4b2f21fb146a12599112900e4b
     internalID: 0
     vertices: []
     indices: 
@@ -177,6 +199,7 @@ TextureImporter:
     nameFileIdTable:
       spr_teacher_mouth_0: 7153970330960999538
       spr_teacher_mouth_1: -8194623748584301970
+      spr_teacher_mouth_2: -1991823378
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
